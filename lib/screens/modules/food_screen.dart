@@ -67,7 +67,7 @@ class _FoodScreenState extends State<FoodScreen> {
                         child: Column(
                           children: [
                             Icon(
-                              food.isAvailable ? LucideIcons.utensils : LucideIcons.slash,
+                              food.isAvailable ? LucideIcons.utensils : LucideIcons.ban,
                               size: 48,
                               color: Colors.white,
                             ),
@@ -75,7 +75,7 @@ class _FoodScreenState extends State<FoodScreen> {
                             Text(
                               food.isAvailable ? 'MEALS AVAILABLE TODAY' : 'Meals Completed / Not Available',
                               textAlign: TextAlign.center,
-                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.extrabold, color: Colors.white),
+                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
                             ),
                             const SizedBox(height: 6),
                             Text(

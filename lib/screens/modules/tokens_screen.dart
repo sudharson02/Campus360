@@ -117,7 +117,7 @@ class _TokensScreenState extends State<TokensScreen> with SingleTickerProviderSt
                 const SizedBox(height: 8),
                 Text(
                   servingToken != null ? '$queueType-${servingToken.tokenNumber}' : 'NO ACTIVE TOKEN',
-                  style: const TextStyle(fontSize: 32, fontWeight: FontWeight.extrabold, color: Colors.white),
+                  style: const TextStyle(fontSize: 32, fontWeight: FontWeight.w800, color: Colors.white),
                 ),
                 if (servingToken != null) ...[
                   const SizedBox(height: 4),

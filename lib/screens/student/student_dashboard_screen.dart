@@ -176,7 +176,7 @@ class _StudentDashboardScreenState extends State<StudentDashboardScreen> {
                       children: [
                         Text(
                           'CURRENT PERIOD (${currentSlot.timeSlot})',
-                          style: const TextStyle(fontSize: 10, fontWeight: FontWeight.extrabold, color: AppColors.primary, letterSpacing: 0.5),
+                          style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: AppColors.primary, letterSpacing: 0.5),
                         ),
                         const SizedBox(height: 2),
                         Text(

@@ -19,7 +19,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
   // Initialize Supabase configuration gracefully with local storage fallback
-  await SupabaseConfig.init();
+  await SupabaseConfig.initialize();
 
   runApp(const Campus360App());
 }

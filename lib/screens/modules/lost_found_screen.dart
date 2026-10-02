@@ -229,7 +229,7 @@ class _LostFoundScreenState extends State<LostFoundScreen> with SingleTickerProv
                         const SizedBox(width: 6),
                         Text(
                           'AI MATCH CONFIDENCE',
-                          style: TextStyle(fontSize: 11, fontWeight: FontWeight.extrabold, color: AppColors.accent, letterSpacing: 0.5),
+                          style: TextStyle(fontSize: 11, fontWeight: FontWeight.w800, color: AppColors.accent, letterSpacing: 0.5),
                         ),
                       ],
                     ),

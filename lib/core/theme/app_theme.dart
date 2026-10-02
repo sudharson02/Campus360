@@ -42,7 +42,6 @@ class AppTheme {
       ),
       appBarTheme: AppBarTheme(
         elevation: 0,
-        scaffoldBackgroundColor: Colors.transparent,
         backgroundColor: AppColors.surface,
         foregroundColor: AppColors.textPrimary,
         centerTitle: false,

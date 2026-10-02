@@ -29,4 +29,6 @@ class SupabaseConfig {
       // Supabase initialisation error fallback handling
     }
   }
+
+  static Future<void> init() => initialize();
 }

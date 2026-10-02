@@ -24,8 +24,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.campus360.app"
+    compileSdkVersion 34
     compileSdk 34
-    ndkVersion flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -38,7 +38,9 @@ android {
 
     defaultConfig {
         applicationId "com.campus360.app"
+        minSdkVersion 21
         minSdk 21
+        targetSdkVersion 34
         targetSdk 34
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

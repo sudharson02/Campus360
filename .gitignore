@@ -1,0 +1,15 @@
+# Flutter / Android build outputs
+*.app
+*.apk
+*.aab
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Android local environment
+android/local.properties
+android/.gradle
+.idea/
+*.iml

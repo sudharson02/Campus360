@@ -13,9 +13,7 @@ class AppTheme {
         primary: AppColors.primary,
         secondary: AppColors.secondary,
         tertiary: AppColors.accent,
-        background: AppColors.background,
         surface: AppColors.surface,
-        surfaceVariant: AppColors.surfaceVariant,
         error: AppColors.error,
       ),
       scaffoldBackgroundColor: AppColors.background,
@@ -51,7 +49,7 @@ class AppTheme {
           color: AppColors.textPrimary,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0.5,
         color: AppColors.surface,
         shape: RoundedRectangleBorder(
